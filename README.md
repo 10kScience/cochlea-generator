@@ -112,10 +112,9 @@ anatomy reveals the early evolution of specialized high-frequency hearing
 sensitivity,” *Journal of Anatomy* (2025),
 [PMC11828743](https://pmc.ncbi.nlm.nih.gov/articles/PMC11828743/).
 
-Original fossil and anatomical scan meshes are not redistributed in this
-repository. Their MorphoSource media identifiers are retained in the presets
-for provenance and independent retrieval subject to the source repository's
-terms.
+Third-party fossil and anatomical reference meshes used during visual
+validation are not redistributed in this repository. The published
+measurements and specimen identities required by the generator are included.
 
 ## Repository structure
 
@@ -129,6 +128,13 @@ validation/   v0.37 export report and re-import validation
 
 ## License
 
-No software or asset license has been selected yet. Public visibility does not
-itself grant reuse rights; add an explicit license before inviting external
-redistribution or modification.
+Original software, documentation, and generated assets in this repository are
+licensed under the
+[Creative Commons Attribution 4.0 International License](LICENSE)
+(`CC BY 4.0`). This permits commercial use with attribution. Scientific papers
+and third-party material remain subject to
+their respective rights and are cited rather than relicensed here.
+
+Suggested attribution: “10k Science Cochlea Generator, Laura Lynn Gonzalez /
+10k Science, licensed CC BY 4.0 —
+https://github.com/10kScience/cochlea-generator.”

@@ -151,8 +151,8 @@ enters the calculation.
 v0.22 restores the Squalodon `Ch = 4.98 mm` value from the project's
 authoritative Measurements tab. The supplemental workbook's USNM 10484 row
 reports `2.58 mm`, but that value conflicts with both the Measurements tab and
-the approximately 4.75 mm aligned cochlear envelope in the exact MorphoSource
-reference. This is an input-provenance correction; the shared solver and all
+the approximately 4.75 mm aligned cochlear envelope in the exact reference
+endocast. This is an input-provenance correction; the shared solver and all
 morphology defaults are unchanged.
 
 The base v0.32 result is one connected mesh with exactly one intentional open
@@ -265,10 +265,9 @@ and green for any 2+ apical remainder.
   is inferred by the documented shared Cw/W2 equation.
 - `tools/compare_vertical_spacing.py` renders shared envelope/tube-height
   alternatives used to diagnose the Ch interpretation.
-- The MorphoSource media IDs embedded in the downloaded filenames were checked
-  against the repository API. `000705827` is Squalodon calvertensis USNM 10484
-  and `000706893` is Zygorhiza kochii ALMNH 2000 1.2.1. The source overlays are
-  exact specimen-level references, not cross-specimen stand-ins. Squalodon's
+- The downloaded reference identities were checked against their specimen
+  records. The source overlays are exact specimen-level references, not
+  cross-specimen stand-ins. Squalodon's
   height follows the project Measurements tab because of the documented `Ch`
   discrepancy above.
 - ITD conventions are less stable than Cl, Cw, Ch, and #T, so ITD remains a

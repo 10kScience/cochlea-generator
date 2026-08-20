@@ -7,6 +7,7 @@ authors:
     given-names: "Laura Lynn"
 version: 0.37.0
 date-released: 2026-08-20
+license: CC-BY-4.0
 repository-code: "https://github.com/10kScience/cochlea-generator"
 url: "https://10k.science"
 keywords:

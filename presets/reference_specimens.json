@@ -9,7 +9,6 @@
     {
       "species_name": "cf. Aetiocetus",
       "specimen": "USNM 256597",
-      "reference_media_id": "000706945",
       "reference_side": "UNKNOWN",
       "cochlear_length_mm": 39.0575,
       "cochlear_width_mm": 11.51,
@@ -24,7 +23,6 @@
     {
       "species_name": "Echovenator sandersi",
       "specimen": "GSM 1098",
-      "reference_media_id": "000706839",
       "reference_side": "UNKNOWN",
       "cochlear_length_mm": 34.13,
       "cochlear_width_mm": 9.05,
@@ -39,7 +37,6 @@
     {
       "species_name": "Scaphokogia cochlearis",
       "specimen": "USNM 452993",
-      "reference_media_id": "000707131",
       "reference_side": "UNKNOWN",
       "cochlear_length_mm": 27.08333333,
       "cochlear_width_mm": 8.81,
@@ -68,7 +65,6 @@
     {
       "species_name": "Squalodon calvertensis",
       "specimen": "USNM 10484",
-      "reference_media_id": "000705827",
       "reference_side": "RIGHT",
       "cochlear_length_mm": 23.33666667,
       "cochlear_width_mm": 8.95,
@@ -85,7 +81,6 @@
     {
       "species_name": "Zygorhiza kochii",
       "specimen": "ALMNH 2000 1.2.1",
-      "reference_media_id": "000706893",
       "reference_side": "UNKNOWN",
       "cochlear_length_mm": 42.04,
       "cochlear_width_mm": 13.405,
