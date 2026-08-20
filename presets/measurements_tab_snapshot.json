@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source": {
+    "spreadsheet_id": "1lWZKKHLXy-XBEm9d4r2cdX_Kd1t9DAbGGfjwB2WIuPk",
+    "spreadsheet_title": "Seeing with Sound Content",
+    "sheet": "Measurements",
+    "sheet_id": 453733022,
+    "retrieved": "2026-07-28",
+    "warning": "The field named 'Cochlear width' is not semantically consistent across rows. Several odontocete values match W2 (perpendicular basal-turn width), while Zygorhiza is an averaged major Cw. Do not feed this raw field into geometry without resolving Cw versus W2."
+  },
+  "rows": [
+    {"common_name":"Vaquita","type":"Odontoceti","species":"Phocoena sinus","echolocation":"NBHF Echolocating","cochlea_length":28.35,"cochlear_width":7.08,"cochlear_turns":1.83,"cochlear_height":4.06,"cr":4.0,"years_average":2.6,"cochlear_slope":0.08,"basal_ratio":0.44,"sbl_extent_pct":91.0,"ganr_pct":2.18},
+    {"common_name":"Blue whale","type":"Mysticeti","species":"Balaenoptera musculus","echolocation":"Non-echolocating","cochlea_length":88.92,"cochlear_width":18.63,"cochlear_turns":2.34,"cochlear_height":11.13,"cr":4.8,"years_average":5.3,"cochlear_slope":0.05,"basal_ratio":0.4,"sbl_extent_pct":44.0,"ganr_pct":2.28},
+    {"common_name":"Orca","type":"Odontoceti","species":"Orcinus orca","echolocation":"Echolocating","cochlea_length":43.01,"cochlear_width":10.25,"cochlear_turns":2.0,"cochlear_height":7.1,"cr":4.2,"years_average":2.6,"cochlear_slope":0.08,"basal_ratio":0.42,"sbl_extent_pct":90.0,"ganr_pct":5.31},
+    {"common_name":"Bottlenose dolphin","type":"Odontoceti","species":"Tursiops truncatus","echolocation":"Echolocating","cochlea_length":34.42,"cochlear_width":8.6,"cochlear_turns":1.75,"cochlear_height":4.38,"cr":4.0,"years_average":2.6,"cochlear_slope":0.07,"basal_ratio":0.39,"sbl_extent_pct":82.0},
+    {"common_name":"—","type":"Odontoceti","species":"Scaphokogia cochlearis","echolocation":"Echolocating","cochlea_length":27.08,"cochlear_width":6.16,"cochlear_turns":1.89,"cochlear_height":5.74,"cr":4.4,"years_average":9.0,"cochlear_slope":0.11,"basal_ratio":0.65,"sbl_extent_pct":66.0},
+    {"common_name":"—","type":"Odontoceti","species":"Semirostrum ceruttii","echolocation":"NBHF Echolocating","cochlea_length":28.9,"cochlear_width":7.49,"cochlear_turns":1.84,"cochlear_height":4.52,"cr":3.9,"years_average":8.0,"cochlear_slope":0.09,"basal_ratio":0.46,"sbl_extent_pct":90.0},
+    {"common_name":"—","type":"Odontoceti","species":"Xiphiacetus bossi","echolocation":"NBHF Echolocating","cochlea_length":24.19,"cochlear_width":6.55,"cochlear_turns":1.95,"cochlear_height":4.35,"cr":3.7,"years_average":15.0,"cochlear_slope":0.11,"basal_ratio":0.58,"sbl_extent_pct":88.0},
+    {"common_name":"—","type":"Odontoceti","species":"Squalodon calvertensis","echolocation":"NBHF Echolocating","cochlea_length":23.34,"cochlear_width":6.19,"cochlear_turns":1.86,"cochlear_height":4.98,"cr":3.8,"years_average":22.0,"cochlear_slope":0.11,"basal_ratio":0.57,"sbl_extent_pct":69.0},
+    {"common_name":"—","type":"Odontoceti","species":"Schizodelphis longirostris","echolocation":"NBHF Echolocating","cochlea_length":26.46,"cochlear_width":6.14,"cochlear_turns":2.0,"cochlear_height":4.07,"cr":4.3,"years_average":21.0,"cochlear_slope":0.08,"basal_ratio":0.46,"sbl_extent_pct":94.0},
+    {"common_name":"","type":"Odontoceti","species":"Echovenator sandersi","echolocation":"Echolocating","cochlea_length":34.13,"cochlear_width":6.87,"cochlear_turns":2.0,"cochlear_height":6.77,"cr":5.0,"years_average":25.0,"cochlear_slope":0.1,"basal_ratio":0.57,"sbl_extent_pct":82.0,"ganr_pct":4.48},
+    {"common_name":"—","type":"Mysticeti","species":"cf. Aetiocetus","echolocation":"Non-echolocating","cochlea_length":39.06,"cochlear_width":7.58,"cochlear_turns":2.36,"cochlear_height":7.28,"cr":5.2,"years_average":26.0,"cochlear_slope":0.08,"basal_ratio":0.63,"sbl_extent_pct":51.0},
+    {"common_name":"","type":"Odontoceti","species":"Olympicetus (CCNHM 1000)","echolocation":"Non-echolocating","cochlea_length":33.95,"cochlear_width":6.69,"cochlear_turns":2.39,"cochlear_height":null,"cr":5.1,"years_average":26.0,"cochlear_slope":null,"basal_ratio":0.46,"sbl_extent_pct":55.0},
+    {"common_name":"—","type":"Stem whale / archaeocete","species":"Zygorhiza kochii","echolocation":"Non-echolocating","cochlea_length":37.26,"cochlear_width":12.35,"cochlear_turns":2.33,"cochlear_height":7.73,"cr":3.0,"years_average":36.0,"cochlear_slope":0.08,"basal_ratio":0.58,"sbl_extent_pct":44.0}
+  ]
+}

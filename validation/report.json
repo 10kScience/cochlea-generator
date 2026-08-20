@@ -1,0 +1,1066 @@
+{
+  "coordinate_policy": "Each cochlea/noodle pair shares identical local coordinates and aligns when imported together. Scene units are millimeters.",
+  "voxel_policy": "90 voxels across measured Cw with a 56x520 sweep for standard assets; 300 across Cw with an 80x800 sweep for Vaquita, Blue whale, and Orca close-up assets",
+  "high_detail_common_names": [
+    "Blue whale",
+    "Orca",
+    "Vaquita"
+  ],
+  "high_detail_voxels_across_Cw": 300,
+  "cochlea_optimization": "Blender Collapse Decimate to 25,000 triangles after normalized voxel generation; sharp basal opening retained",
+  "cochlea_target_triangles": 25000,
+  "noodle_diameter_ratio": 0.3,
+  "file_count": 26,
+  "generator_version": "0.37.0",
+  "source_generator_version": "0.32.1",
+  "shell_policy": "closed centerline inner liner with smoothed outward-rolled basal lip",
+  "inner_radius_ratio": 0.6,
+  "organic_displacement": true,
+  "organic_displacement_algorithm": "three deterministic physical-scale fBm layers displaced along smooth vertex normals",
+  "organic_displacement_amplitude_ratio_Cw": 0.0024,
+  "organic_displacement_layer_weights": {
+    "macro": 0.55,
+    "meso": 0.32,
+    "micro": 0.13
+  },
+  "noodle_mesh_policy": "three single-material ranges: purple 0-1, orange 1-2, green 2+",
+  "outer_surface_policy": "v32 outer body preserved; only the final basal boundary loop is smoothed",
+  "output_directory": "assets/glb",
+  "records": [
+    {
+      "common_name": "Aetiocetus",
+      "species_name": "cf. Aetiocetus",
+      "specimen": "USNM 256597",
+      "measurements": {
+        "Cl_mm": 39.0575,
+        "Cw_mm": 11.51,
+        "W2_mm": 7.58,
+        "Ch_mm": 7.28,
+        "turns": 2.36,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.13
+      },
+      "cochlea": {
+        "file": "assets/glb/aetiocetus_cochlea.glb",
+        "bytes": 1062216,
+        "vertices": 29451,
+        "polygons": 42003,
+        "triangles": 58898,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 53419,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -2.7557285990129587,
+        "height_error_mm": 2.0980834936068504e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 109,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.027623999999999996,
+        "organic_displacement_limit_mm": 0.0676788,
+        "organic_displacement_min_mm": -0.0676788,
+        "organic_displacement_max_mm": 0.0676788,
+        "organic_macro_wavelength_mm": 3.8366666666666664,
+        "organic_meso_wavelength_mm": 1.3541176470588234,
+        "organic_micro_wavelength_mm": 0.5231818181818182
+      },
+      "noodle": {
+        "file": "assets/glb/aetiocetus_noodle.glb",
+        "bytes": 268304,
+        "vertices": 7310,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Aetiocetus | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.7480216825456968,
+        "apical_noodle_diameter_mm": 0.38179026677132366,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.7151527404785156,
+          -3.96006441116333,
+          -1.987281084060669
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 3,
+        "objects": [
+          "Aetiocetus | TURN COUNT NOODLE | T00_100",
+          "Aetiocetus | TURN COUNT NOODLE | T100_200",
+          "Aetiocetus | TURN COUNT NOODLE | T200_PLUS"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200",
+          "T200_PLUS"
+        ]
+      }
+    },
+    {
+      "common_name": "Echovenator",
+      "species_name": "Echovenator sandersi",
+      "specimen": "GSM 1098",
+      "measurements": {
+        "Cl_mm": 34.13,
+        "Cw_mm": 9.05,
+        "W2_mm": 6.87,
+        "Ch_mm": 6.77,
+        "turns": 2.0,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.1
+      },
+      "cochlea": {
+        "file": "assets/glb/echovenator_cochlea.glb",
+        "bytes": 955880,
+        "vertices": 26497,
+        "polygons": 39040,
+        "triangles": 52990,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 65893,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 0.503350577693328,
+        "height_error_mm": -4.959106441049244e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 90,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.02172,
+        "organic_displacement_limit_mm": 0.053214000000000004,
+        "organic_displacement_min_mm": -0.053214000000000004,
+        "organic_displacement_max_mm": 0.053214000000000004,
+        "organic_macro_wavelength_mm": 3.016666666666667,
+        "organic_meso_wavelength_mm": 1.0647058823529412,
+        "organic_micro_wavelength_mm": 0.4113636363636364
+      },
+      "noodle": {
+        "file": "assets/glb/echovenator_noodle.glb",
+        "bytes": 266292,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Echovenator | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6283049574992852,
+        "apical_noodle_diameter_mm": 0.3206868503076351,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -2.889787435531616,
+          -3.118422031402588,
+          -2.0582990646362305
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Echovenator | TURN COUNT NOODLE | T00_100",
+          "Echovenator | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Scaphokogia",
+      "species_name": "Scaphokogia cochlearis",
+      "specimen": "USNM 452993",
+      "measurements": {
+        "Cl_mm": 27.08333333,
+        "Cw_mm": 8.81,
+        "W2_mm": 6.16,
+        "Ch_mm": 5.74,
+        "turns": 1.89,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.1
+      },
+      "cochlea": {
+        "file": "assets/glb/scaphokogia_cochlea.glb",
+        "bytes": 1118228,
+        "vertices": 31006,
+        "polygons": 43563,
+        "triangles": 62008,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 50741,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -2.159484835906693,
+        "height_error_mm": -2.2888183615066282e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 119,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.021144,
+        "organic_displacement_limit_mm": 0.0518028,
+        "organic_displacement_min_mm": -0.0518028,
+        "organic_displacement_max_mm": 0.0518028,
+        "organic_macro_wavelength_mm": 2.936666666666667,
+        "organic_meso_wavelength_mm": 1.0364705882352943,
+        "organic_micro_wavelength_mm": 0.40045454545454545
+      },
+      "noodle": {
+        "file": "assets/glb/scaphokogia_noodle.glb",
+        "bytes": 266312,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Scaphokogia | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.5842158310415285,
+        "apical_noodle_diameter_mm": 0.29818376016359616,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -2.917221784591675,
+          -3.0853304862976074,
+          -1.563643217086792
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Scaphokogia | TURN COUNT NOODLE | T00_100",
+          "Scaphokogia | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Semirostrum",
+      "species_name": "Semirostrum ceruttii",
+      "specimen": "SDNHM 65276",
+      "measurements": {
+        "Cl_mm": 28.9,
+        "Cw_mm": 9.84,
+        "W2_mm": 7.49,
+        "Ch_mm": 4.52,
+        "turns": 1.84,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.11
+      },
+      "cochlea": {
+        "file": "assets/glb/semirostrum_cochlea.glb",
+        "bytes": 1000624,
+        "vertices": 27739,
+        "polygons": 40288,
+        "triangles": 55478,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 47814,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 0.31255151557730965,
+        "height_error_mm": -1.907348590179936e-08,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 98,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.023615999999999998,
+        "organic_displacement_limit_mm": 0.0578592,
+        "organic_displacement_min_mm": -0.0578592,
+        "organic_displacement_max_mm": 0.0578592,
+        "organic_macro_wavelength_mm": 3.28,
+        "organic_meso_wavelength_mm": 1.1576470588235295,
+        "organic_micro_wavelength_mm": 0.44727272727272727
+      },
+      "noodle": {
+        "file": "assets/glb/semirostrum_noodle.glb",
+        "bytes": 266300,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Semirostrum | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6825917473339544,
+        "apical_noodle_diameter_mm": 0.3483948278392503,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.3520941734313965,
+          -3.629728317260742,
+          -0.9357939958572388
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Semirostrum | TURN COUNT NOODLE | T00_100",
+          "Semirostrum | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Squalodon",
+      "species_name": "Squalodon calvertensis",
+      "specimen": "USNM 10484",
+      "measurements": {
+        "Cl_mm": 23.33666667,
+        "Cw_mm": 8.95,
+        "W2_mm": 6.19,
+        "Ch_mm": 4.98,
+        "turns": 1.86,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.1
+      },
+      "cochlea": {
+        "file": "assets/glb/squalodon_cochlea.glb",
+        "bytes": 1039800,
+        "vertices": 28827,
+        "polygons": 41379,
+        "triangles": 57654,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 43718,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 1.044758449793509,
+        "height_error_mm": 1.907348590179936e-08,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 105,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.021479999999999996,
+        "organic_displacement_limit_mm": 0.05262599999999999,
+        "organic_displacement_min_mm": -0.05262599999999999,
+        "organic_displacement_max_mm": 0.05262599999999999,
+        "organic_macro_wavelength_mm": 2.983333333333333,
+        "organic_meso_wavelength_mm": 1.052941176470588,
+        "organic_micro_wavelength_mm": 0.4068181818181818
+      },
+      "noodle": {
+        "file": "assets/glb/squalodon_noodle.glb",
+        "bytes": 266308,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Squalodon | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6098917925659939,
+        "apical_noodle_diameter_mm": 0.3112887709256833,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.1706299781799316,
+          -3.356341600418091,
+          -1.275927186012268
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Squalodon | TURN COUNT NOODLE | T00_100",
+          "Squalodon | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Zygorhiza",
+      "species_name": "Zygorhiza kochii",
+      "specimen": "ALMNH 2000 1.2.1",
+      "measurements": {
+        "Cl_mm": 42.04,
+        "Cw_mm": 13.405,
+        "W2_mm": 7.08,
+        "Ch_mm": 7.733333333,
+        "turns": 2.37,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.15
+      },
+      "cochlea": {
+        "file": "assets/glb/zygorhiza_cochlea.glb",
+        "bytes": 1123832,
+        "vertices": 31162,
+        "polygons": 43720,
+        "triangles": 62320,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 46411,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -1.6559964694593565,
+        "height_error_mm": 2.5464648434336823e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 120,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.03217199999999999,
+        "organic_displacement_limit_mm": 0.07882139999999999,
+        "organic_displacement_min_mm": -0.07882139999999999,
+        "organic_displacement_max_mm": 0.07882139999999999,
+        "organic_macro_wavelength_mm": 4.468333333333333,
+        "organic_meso_wavelength_mm": 1.5770588235294116,
+        "organic_micro_wavelength_mm": 0.6093181818181818
+      },
+      "noodle": {
+        "file": "assets/glb/zygorhiza_noodle.glb",
+        "bytes": 268336,
+        "vertices": 7310,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Zygorhiza | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.8392789780671012,
+        "apical_noodle_diameter_mm": 0.4283679904054485,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -4.652523994445801,
+          -4.753134250640869,
+          -2.0964465141296387
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 3,
+        "objects": [
+          "Zygorhiza | TURN COUNT NOODLE | T00_100",
+          "Zygorhiza | TURN COUNT NOODLE | T100_200",
+          "Zygorhiza | TURN COUNT NOODLE | T200_PLUS"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200",
+          "T200_PLUS"
+        ]
+      }
+    },
+    {
+      "common_name": "Vaquita",
+      "species_name": "Phocoena sinus",
+      "specimen": "910407-L / 900519-R mean",
+      "measurements": {
+        "Cl_mm": 28.35,
+        "Cw_mm": 9.215,
+        "W2_mm": 7.08,
+        "Ch_mm": 4.06,
+        "turns": 1.83,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 300,
+        "effective_voxel_size_mm": 0.03
+      },
+      "cochlea": {
+        "file": "assets/glb/vaquita_cochlea.glb",
+        "bytes": 1049184,
+        "vertices": 29088,
+        "polygons": 41640,
+        "triangles": 58176,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 587289,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -0.3708933160503399,
+        "height_error_mm": -5.7220458593576495e-08,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 104,
+        "centerline_rings": 135,
+        "organic_displacement_rms_mm": 0.022115999999999997,
+        "organic_displacement_limit_mm": 0.054184199999999995,
+        "organic_displacement_min_mm": -0.054184199999999995,
+        "organic_displacement_max_mm": 0.054184199999999995,
+        "organic_macro_wavelength_mm": 3.0716666666666668,
+        "organic_meso_wavelength_mm": 1.0841176470588234,
+        "organic_micro_wavelength_mm": 0.4188636363636364
+      },
+      "noodle": {
+        "file": "assets/glb/vaquita_noodle.glb",
+        "bytes": 407428,
+        "vertices": 11216,
+        "polygons": 11214,
+        "triangles": 22400,
+        "object": "Vaquita | TURN COUNT NOODLE",
+        "path_points": 800,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6365645657674259,
+        "apical_noodle_diameter_mm": 0.3249025543676942,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.0645012855529785,
+          -3.3584790229797363,
+          -0.7257493734359741
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Vaquita | TURN COUNT NOODLE | T00_100",
+          "Vaquita | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Blue whale",
+      "species_name": "Balaenoptera musculus",
+      "specimen": "USNM 269540",
+      "measurements": {
+        "Cl_mm": 88.92,
+        "Cw_mm": 27.7,
+        "W2_mm": 18.63,
+        "Ch_mm": 11.13,
+        "turns": 2.34,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 300,
+        "effective_voxel_size_mm": 0.09
+      },
+      "cochlea": {
+        "file": "assets/glb/blue_whale_cochlea.glb",
+        "bytes": 1100808,
+        "vertices": 30521,
+        "polygons": 43079,
+        "triangles": 61046,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 540141,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -0.06268827417382429,
+        "height_error_mm": -8.39233399219097e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 113,
+        "centerline_rings": 135,
+        "organic_displacement_rms_mm": 0.06648,
+        "organic_displacement_limit_mm": 0.162876,
+        "organic_displacement_min_mm": -0.162876,
+        "organic_displacement_max_mm": 0.162876,
+        "organic_macro_wavelength_mm": 9.233333333333333,
+        "organic_meso_wavelength_mm": 3.2588235294117647,
+        "organic_micro_wavelength_mm": 1.259090909090909
+      },
+      "noodle": {
+        "file": "assets/glb/blue_whale_noodle.glb",
+        "bytes": 409440,
+        "vertices": 11230,
+        "polygons": 11214,
+        "triangles": 22400,
+        "object": "Blue whale | TURN COUNT NOODLE",
+        "path_points": 800,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 1.8555835150807023,
+        "apical_noodle_diameter_mm": 0.9470898260971903,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -9.444579124450684,
+          -10.110784530639648,
+          -1.8744170665740967
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 3,
+        "objects": [
+          "Blue whale | TURN COUNT NOODLE | T00_100",
+          "Blue whale | TURN COUNT NOODLE | T100_200",
+          "Blue whale | TURN COUNT NOODLE | T200_PLUS"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200",
+          "T200_PLUS"
+        ]
+      }
+    },
+    {
+      "common_name": "Orca",
+      "species_name": "Orcinus orca",
+      "specimen": "LACM 72453",
+      "measurements": {
+        "Cl_mm": 43.01,
+        "Cw_mm": 16.79,
+        "W2_mm": 10.25,
+        "Ch_mm": 7.1,
+        "turns": 2.0,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 300,
+        "effective_voxel_size_mm": 0.055
+      },
+      "cochlea": {
+        "file": "assets/glb/orca_cochlea.glb",
+        "bytes": 1066376,
+        "vertices": 29566,
+        "polygons": 42119,
+        "triangles": 59132,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 470791,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 6.315031456872506,
+        "height_error_mm": -5.722045894884786e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 107,
+        "centerline_rings": 135,
+        "organic_displacement_rms_mm": 0.04029599999999999,
+        "organic_displacement_limit_mm": 0.09872519999999999,
+        "organic_displacement_min_mm": -0.09872519999999999,
+        "organic_displacement_max_mm": 0.09872519999999999,
+        "organic_macro_wavelength_mm": 5.596666666666667,
+        "organic_meso_wavelength_mm": 1.9752941176470586,
+        "organic_micro_wavelength_mm": 0.7631818181818182
+      },
+      "noodle": {
+        "file": "assets/glb/orca_noodle.glb",
+        "bytes": 407372,
+        "vertices": 11216,
+        "polygons": 11214,
+        "triangles": 22400,
+        "object": "Orca | TURN COUNT NOODLE",
+        "path_points": 800,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 1.1070904507879815,
+        "apical_noodle_diameter_mm": 0.5650589660821858,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -5.964470386505127,
+          -6.242541790008545,
+          -1.3349814414978027
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Orca | TURN COUNT NOODLE | T00_100",
+          "Orca | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Bottlenose dolphin",
+      "species_name": "Tursiops truncatus",
+      "specimen": "MNHN AZ.MC.1903-201",
+      "measurements": {
+        "Cl_mm": 34.42,
+        "Cw_mm": 11.13,
+        "W2_mm": 8.6,
+        "Ch_mm": 4.38,
+        "turns": 1.75,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.125
+      },
+      "cochlea": {
+        "file": "assets/glb/bottlenose_dolphin_cochlea.glb",
+        "bytes": 1000632,
+        "vertices": 27739,
+        "polygons": 40288,
+        "triangles": 55478,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 53040,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -0.6738829573868885,
+        "height_error_mm": 1.1444091807533141e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 98,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.026712,
+        "organic_displacement_limit_mm": 0.0654444,
+        "organic_displacement_min_mm": -0.0654444,
+        "organic_displacement_max_mm": 0.0654444,
+        "organic_macro_wavelength_mm": 3.7100000000000004,
+        "organic_meso_wavelength_mm": 1.3094117647058825,
+        "organic_micro_wavelength_mm": 0.505909090909091
+      },
+      "noodle": {
+        "file": "assets/glb/bottlenose_dolphin_noodle.glb",
+        "bytes": 266344,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Bottlenose dolphin | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.7677944368115431,
+        "apical_noodle_diameter_mm": 0.39188228054861163,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.5535192489624023,
+          -3.852348566055298,
+          -0.6560269594192505
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Bottlenose dolphin | TURN COUNT NOODLE | T00_100",
+          "Bottlenose dolphin | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Xiphiacetus",
+      "species_name": "Xiphiacetus bossi",
+      "specimen": "USNM 167622",
+      "measurements": {
+        "Cl_mm": 24.19333333,
+        "Cw_mm": 9.13,
+        "W2_mm": 6.55,
+        "Ch_mm": 5.315,
+        "turns": 1.95,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.1
+      },
+      "cochlea": {
+        "file": "assets/glb/xiphiacetus_cochlea.glb",
+        "bytes": 1011820,
+        "vertices": 28050,
+        "polygons": 40600,
+        "triangles": 56100,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 47023,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 2.327042740907262,
+        "height_error_mm": 5.340576167967015e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 100,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.021912,
+        "organic_displacement_limit_mm": 0.05368440000000001,
+        "organic_displacement_min_mm": -0.05368440000000001,
+        "organic_displacement_max_mm": 0.05368440000000001,
+        "organic_macro_wavelength_mm": 3.0433333333333334,
+        "organic_meso_wavelength_mm": 1.0741176470588236,
+        "organic_micro_wavelength_mm": 0.41500000000000004
+      },
+      "noodle": {
+        "file": "assets/glb/xiphiacetus_noodle.glb",
+        "bytes": 266308,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Xiphiacetus | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6285416020930622,
+        "apical_noodle_diameter_mm": 0.32080763370829896,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.21968412399292,
+          -3.4219648838043213,
+          -1.4258527755737305
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Xiphiacetus | TURN COUNT NOODLE | T00_100",
+          "Xiphiacetus | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Schizodelphis",
+      "species_name": "Schizodelphis longirostris",
+      "specimen": "USNM 244413 L/R mean",
+      "measurements": {
+        "Cl_mm": 26.461666665,
+        "Cw_mm": 8.735,
+        "W2_mm": 6.145,
+        "Ch_mm": 4.07,
+        "turns": 2.0,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.095
+      },
+      "cochlea": {
+        "file": "assets/glb/schizodelphis_cochlea.glb",
+        "bytes": 1023052,
+        "vertices": 28361,
+        "polygons": 40912,
+        "triangles": 56722,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 50516,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": 0.11751970839011325,
+        "height_error_mm": 1.716613766689079e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 25000,
+        "basal_boundary_vertices": 102,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.020963999999999997,
+        "organic_displacement_limit_mm": 0.05136179999999999,
+        "organic_displacement_min_mm": -0.05136179999999999,
+        "organic_displacement_max_mm": 0.05136179999999999,
+        "organic_macro_wavelength_mm": 2.9116666666666666,
+        "organic_meso_wavelength_mm": 1.0276470588235294,
+        "organic_micro_wavelength_mm": 0.39704545454545453
+      },
+      "noodle": {
+        "file": "assets/glb/schizodelphis_noodle.glb",
+        "bytes": 266352,
+        "vertices": 7296,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Schizodelphis | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.5926124317683175,
+        "apical_noodle_diameter_mm": 0.30246938517454924,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -2.9452505111694336,
+          -3.193143844604492,
+          -0.8129385709762573
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 2,
+        "objects": [
+          "Schizodelphis | TURN COUNT NOODLE | T00_100",
+          "Schizodelphis | TURN COUNT NOODLE | T100_200"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200"
+        ]
+      }
+    },
+    {
+      "common_name": "Olympicetus",
+      "species_name": "simocetid (cf. Olympicetus)",
+      "specimen": "CCNHM 1000 (Ol sp)",
+      "measurements": {
+        "Cl_mm": 33.95,
+        "Cw_mm": 9.98,
+        "W2_mm": 6.686666667,
+        "Ch_mm": 4.576666667,
+        "turns": 2.393888889,
+        "handedness": "RIGHT"
+      },
+      "voxel_policy": {
+        "normalized": true,
+        "voxels_across_Cw": 90,
+        "effective_voxel_size_mm": 0.11
+      },
+      "cochlea": {
+        "file": "assets/glb/olympicetus_cochlea.glb",
+        "bytes": 1006288,
+        "vertices": 27896,
+        "polygons": 40443,
+        "triangles": 55788,
+        "optimization": "v32 25k outer shell plus procedural inner liner",
+        "triangles_before_decimate": 50195,
+        "target_triangles": 25000,
+        "centerline_length_error_pct": -0.31649885540781153,
+        "height_error_mm": 1.6497021526618028e-07,
+        "closed_inner_liner": true,
+        "closed_manifold": true,
+        "inner_radius_ratio": 0.6,
+        "outer_body_preserved": true,
+        "basal_boundary_smoothed": true,
+        "lip_direction": "outward",
+        "organic_displacement": true,
+        "organic_displacement_algorithm": "three-scale deterministic fractal Brownian motion",
+        "organic_displacement_amplitude_ratio_Cw": 0.0024,
+        "outer_faces_preserved": 24999,
+        "basal_boundary_vertices": 99,
+        "centerline_rings": 131,
+        "organic_displacement_rms_mm": 0.023951999999999998,
+        "organic_displacement_limit_mm": 0.058682399999999996,
+        "organic_displacement_min_mm": -0.058682399999999996,
+        "organic_displacement_max_mm": 0.058682399999999996,
+        "organic_macro_wavelength_mm": 3.3266666666666667,
+        "organic_meso_wavelength_mm": 1.1741176470588235,
+        "organic_micro_wavelength_mm": 0.45363636363636367
+      },
+      "noodle": {
+        "file": "assets/glb/olympicetus_noodle.glb",
+        "bytes": 268424,
+        "vertices": 7310,
+        "polygons": 7294,
+        "triangles": 14560,
+        "object": "Olympicetus | TURN COUNT NOODLE",
+        "path_points": 520,
+        "diameter_ratio": 0.3,
+        "basal_noodle_diameter_mm": 0.6663062699914842,
+        "apical_noodle_diameter_mm": 0.34008272020365354,
+        "terminal_cap_added": false,
+        "terminal_cap_diameter_mm": 0.0,
+        "spiral_origin_local": [
+          -3.3539583683013916,
+          -3.623209238052368,
+          -0.9236270785331726
+        ],
+        "inlet_flare_excluded": true,
+        "segmented_meshes": true,
+        "mesh_count": 3,
+        "objects": [
+          "Olympicetus | TURN COUNT NOODLE | T00_100",
+          "Olympicetus | TURN COUNT NOODLE | T100_200",
+          "Olympicetus | TURN COUNT NOODLE | T200_PLUS"
+        ],
+        "section_keys": [
+          "T00_100",
+          "T100_200",
+          "T200_PLUS"
+        ]
+      }
+    }
+  ]
+}

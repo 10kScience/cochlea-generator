@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its generated assets, please cite the repository and the underlying anatomical study."
+title: "10k Science Cochlea Generator"
+type: software
+authors:
+  - family-names: "Gonzalez"
+    given-names: "Laura Lynn"
+version: 0.37.0
+date-released: 2026-08-20
+repository-code: "https://github.com/10kScience/cochlea-generator"
+url: "https://10k.science"
+keywords:
+  - cochlea
+  - cetacean
+  - scientific visualization
+  - Blender
+  - procedural modeling
+references:
+  - type: article
+    title: "Variation in whale (Cetacea) inner ear anatomy reveals the early evolution of specialized high-frequency hearing sensitivity"
+    year: 2025
+    journal: "Journal of Anatomy"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11828743/"

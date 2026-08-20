@@ -1,0 +1,585 @@
+{
+  "source_report": "validation/report.json",
+  "pair_count": 13,
+  "file_count": 26,
+  "passed": true,
+  "failures": [],
+  "records": [
+    {
+      "common_name": "Aetiocetus",
+      "cochlea_file": "assets/glb/aetiocetus_cochlea.glb",
+      "noodle_file": "assets/glb/aetiocetus_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        11.44500923,
+        11.11263084,
+        7.29330111
+      ],
+      "noodle_dimensions": [
+        9.52297401,
+        8.74863815,
+        5.57835007
+      ],
+      "pair_center_distance": 0.53112756,
+      "cochlea_materials": 1,
+      "noodle_materials": 3,
+      "noodle_meshes": 3,
+      "noodle_mesh_names": [
+        "Aetiocetus | TURN COUNT NOODLE | T00_100",
+        "Aetiocetus | TURN COUNT NOODLE | T100_200",
+        "Aetiocetus | TURN COUNT NOODLE | T200_PLUS"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Echovenator",
+      "cochlea_file": "assets/glb/echovenator_cochlea.glb",
+      "noodle_file": "assets/glb/echovenator_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        9.10150814,
+        8.87162781,
+        6.77495003
+      ],
+      "noodle_dimensions": [
+        7.50877047,
+        7.45115376,
+        5.2644887
+      ],
+      "pair_center_distance": 0.2748156,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Echovenator | TURN COUNT NOODLE | T00_100",
+        "Echovenator | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Scaphokogia",
+      "cochlea_file": "assets/glb/scaphokogia_cochlea.glb",
+      "noodle_file": "assets/glb/scaphokogia_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        8.8293438,
+        8.57164001,
+        5.72031689
+      ],
+      "noodle_dimensions": [
+        7.27868176,
+        6.74978352,
+        4.21478271
+      ],
+      "pair_center_distance": 0.33711239,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Scaphokogia | TURN COUNT NOODLE | T00_100",
+        "Scaphokogia | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Semirostrum",
+      "cochlea_file": "assets/glb/semirostrum_cochlea.glb",
+      "noodle_file": "assets/glb/semirostrum_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        9.82728004,
+        9.8451767,
+        4.47342777
+      ],
+      "noodle_dimensions": [
+        8.17661381,
+        7.84233332,
+        2.89338064
+      ],
+      "pair_center_distance": 0.35493947,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Semirostrum | TURN COUNT NOODLE | T00_100",
+        "Semirostrum | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Squalodon",
+      "cochlea_file": "assets/glb/squalodon_cochlea.glb",
+      "noodle_file": "assets/glb/squalodon_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        8.97516823,
+        8.92184639,
+        5.00036287
+      ],
+      "noodle_dimensions": [
+        7.47671318,
+        7.17912197,
+        3.52028203
+      ],
+      "pair_center_distance": 0.32241624,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Squalodon | TURN COUNT NOODLE | T00_100",
+        "Squalodon | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Zygorhiza",
+      "cochlea_file": "assets/glb/zygorhiza_cochlea.glb",
+      "noodle_file": "assets/glb/zygorhiza_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        13.45460796,
+        12.80864716,
+        7.6824131
+      ],
+      "noodle_dimensions": [
+        11.2489624,
+        10.25683212,
+        5.92708921
+      ],
+      "pair_center_distance": 0.54711831,
+      "cochlea_materials": 1,
+      "noodle_materials": 3,
+      "noodle_meshes": 3,
+      "noodle_mesh_names": [
+        "Zygorhiza | TURN COUNT NOODLE | T00_100",
+        "Zygorhiza | TURN COUNT NOODLE | T100_200",
+        "Zygorhiza | TURN COUNT NOODLE | T200_PLUS"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Vaquita",
+      "cochlea_file": "assets/glb/vaquita_cochlea.glb",
+      "noodle_file": "assets/glb/vaquita_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        9.25534248,
+        9.26381397,
+        4.05234432
+      ],
+      "noodle_dimensions": [
+        7.60769176,
+        7.2993803,
+        2.46683359
+      ],
+      "pair_center_distance": 0.33524196,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Vaquita | TURN COUNT NOODLE | T00_100",
+        "Vaquita | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Blue whale",
+      "cochlea_file": "assets/glb/blue_whale_cochlea.glb",
+      "noodle_file": "assets/glb/blue_whale_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        27.84636879,
+        27.38859558,
+        11.14432526
+      ],
+      "noodle_dimensions": [
+        23.05353928,
+        21.94675446,
+        7.096807
+      ],
+      "pair_center_distance": 1.17657448,
+      "cochlea_materials": 1,
+      "noodle_materials": 3,
+      "noodle_meshes": 3,
+      "noodle_mesh_names": [
+        "Blue whale | TURN COUNT NOODLE | T00_100",
+        "Blue whale | TURN COUNT NOODLE | T100_200",
+        "Blue whale | TURN COUNT NOODLE | T200_PLUS"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Orca",
+      "cochlea_file": "assets/glb/orca_cochlea.glb",
+      "noodle_file": "assets/glb/orca_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        16.7863884,
+        16.49378395,
+        7.05079222
+      ],
+      "noodle_dimensions": [
+        14.07582855,
+        13.35950279,
+        4.38972092
+      ],
+      "pair_center_distance": 0.56880101,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Orca | TURN COUNT NOODLE | T00_100",
+        "Orca | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Bottlenose dolphin",
+      "cochlea_file": "assets/glb/bottlenose_dolphin_cochlea.glb",
+      "noodle_file": "assets/glb/bottlenose_dolphin_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        11.11122894,
+        10.85959625,
+        4.38807678
+      ],
+      "noodle_dimensions": [
+        9.17258263,
+        9.01472187,
+        2.49030828
+      ],
+      "pair_center_distance": 0.22056065,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Bottlenose dolphin | TURN COUNT NOODLE | T00_100",
+        "Bottlenose dolphin | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Xiphiacetus",
+      "cochlea_file": "assets/glb/xiphiacetus_cochlea.glb",
+      "noodle_file": "assets/glb/xiphiacetus_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        9.10484123,
+        9.07405472,
+        5.28305435
+      ],
+      "noodle_dimensions": [
+        7.63644028,
+        7.32902622,
+        3.84511304
+      ],
+      "pair_center_distance": 0.3256628,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Xiphiacetus | TURN COUNT NOODLE | T00_100",
+        "Xiphiacetus | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Schizodelphis",
+      "cochlea_file": "assets/glb/schizodelphis_cochlea.glb",
+      "noodle_file": "assets/glb/schizodelphis_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        8.70051289,
+        8.72346497,
+        4.05439568
+      ],
+      "noodle_dimensions": [
+        7.25971889,
+        6.94434214,
+        2.58652782
+      ],
+      "pair_center_distance": 0.34492454,
+      "cochlea_materials": 1,
+      "noodle_materials": 2,
+      "noodle_meshes": 2,
+      "noodle_mesh_names": [
+        "Schizodelphis | TURN COUNT NOODLE | T00_100",
+        "Schizodelphis | TURN COUNT NOODLE | T100_200"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    },
+    {
+      "common_name": "Olympicetus",
+      "cochlea_file": "assets/glb/olympicetus_cochlea.glb",
+      "noodle_file": "assets/glb/olympicetus_noodle.glb",
+      "checks": {
+        "cochlea_role": true,
+        "noodle_role": true,
+        "matching_species": true,
+        "both_right_handed": true,
+        "same_transform": true,
+        "pair_centers_overlap": true,
+        "cochlea_expected_topology": true,
+        "cochlea_has_material": true,
+        "noodle_has_section_materials": true,
+        "noodle_has_separate_section_meshes": true
+      },
+      "cochlea_dimensions": [
+        9.99803162,
+        9.83342743,
+        4.58561897
+      ],
+      "noodle_dimensions": [
+        8.29476357,
+        7.88450861,
+        3.19891882
+      ],
+      "pair_center_distance": 0.4670126,
+      "cochlea_materials": 1,
+      "noodle_materials": 3,
+      "noodle_meshes": 3,
+      "noodle_mesh_names": [
+        "Olympicetus | TURN COUNT NOODLE | T00_100",
+        "Olympicetus | TURN COUNT NOODLE | T100_200",
+        "Olympicetus | TURN COUNT NOODLE | T200_PLUS"
+      ],
+      "cochlea_opening": {
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "closed_boundary_loops": 0,
+        "wire_edges": 0,
+        "junction_edges": 0,
+        "single_clean_opening": false,
+        "closed_manifold": true
+      }
+    }
+  ]
+}

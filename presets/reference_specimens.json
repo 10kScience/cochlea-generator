@@ -1,0 +1,101 @@
+{
+  "schema_version": 2,
+  "source": {
+    "workbook": "joa14176-sup-0006-tables.xlsx (Racicot et al. supplementary data)",
+    "sheet": "Supp Table 1 \u2013 Dataset",
+    "note": "Reference presets contain identity, source metadata, and published measurements only. Every specimen uses the same generator defaults and measurement-to-shape solver."
+  },
+  "presets": [
+    {
+      "species_name": "cf. Aetiocetus",
+      "specimen": "USNM 256597",
+      "reference_media_id": "000706945",
+      "reference_side": "UNKNOWN",
+      "cochlear_length_mm": 39.0575,
+      "cochlear_width_mm": 11.51,
+      "basal_width_perp_mm": 7.58,
+      "turns": 2.36,
+      "cochlear_height_mm": 7.28,
+      "interturn_distance_mm": 1.38,
+      "secondary_lamina_extent_pct": 51.29189869,
+      "spiral_ganglion_diameter_mm": 0.38,
+      "fenestra_area_mm2": 17.42333333
+    },
+    {
+      "species_name": "Echovenator sandersi",
+      "specimen": "GSM 1098",
+      "reference_media_id": "000706839",
+      "reference_side": "UNKNOWN",
+      "cochlear_length_mm": 34.13,
+      "cochlear_width_mm": 9.05,
+      "basal_width_perp_mm": 6.87,
+      "turns": 2.0,
+      "cochlear_height_mm": 6.77,
+      "interturn_distance_mm": 1.85,
+      "secondary_lamina_extent_pct": 69.752908,
+      "spiral_ganglion_diameter_mm": 0.4,
+      "fenestra_area_mm2": 8.92
+    },
+    {
+      "species_name": "Scaphokogia cochlearis",
+      "specimen": "USNM 452993",
+      "reference_media_id": "000707131",
+      "reference_side": "UNKNOWN",
+      "cochlear_length_mm": 27.08333333,
+      "cochlear_width_mm": 8.81,
+      "basal_width_perp_mm": 6.16,
+      "turns": 1.89,
+      "cochlear_height_mm": 5.74,
+      "interturn_distance_mm": 1.23,
+      "secondary_lamina_extent_pct": 66.25230769,
+      "spiral_ganglion_diameter_mm": 0.33,
+      "fenestra_area_mm2": 12.73333333
+    },
+    {
+      "species_name": "Semirostrum ceruttii",
+      "specimen": "SDNHM 65276",
+      "reference_side": "UNKNOWN",
+      "cochlear_length_mm": 28.9,
+      "cochlear_width_mm": 9.84,
+      "basal_width_perp_mm": 7.49,
+      "turns": 1.84,
+      "cochlear_height_mm": 4.52,
+      "interturn_distance_mm": 1.08,
+      "secondary_lamina_extent_pct": 90.20761246,
+      "spiral_ganglion_diameter_mm": 0.51,
+      "fenestra_area_mm2": 2.55
+    },
+    {
+      "species_name": "Squalodon calvertensis",
+      "specimen": "USNM 10484",
+      "reference_media_id": "000705827",
+      "reference_side": "RIGHT",
+      "cochlear_length_mm": 23.33666667,
+      "cochlear_width_mm": 8.95,
+      "basal_width_perp_mm": 6.19,
+      "turns": 1.86,
+      "cochlear_height_mm": 4.98,
+      "cochlear_height_source": "Seeing with Sound Content / Measurements tab",
+      "cochlear_height_note": "The supplemental USNM 10484 row reports 2.58 mm; the project Measurements tab reports 4.98 mm and agrees with the approximately 4.75 mm aligned reference envelope.",
+      "interturn_distance_mm": 1.67,
+      "secondary_lamina_extent_pct": 70.53370742,
+      "spiral_ganglion_diameter_mm": 0.29,
+      "fenestra_area_mm2": 4.1
+    },
+    {
+      "species_name": "Zygorhiza kochii",
+      "specimen": "ALMNH 2000 1.2.1",
+      "reference_media_id": "000706893",
+      "reference_side": "UNKNOWN",
+      "cochlear_length_mm": 42.04,
+      "cochlear_width_mm": 13.405,
+      "basal_width_perp_mm": 7.08,
+      "turns": 2.37,
+      "cochlear_height_mm": 7.733333333,
+      "interturn_distance_mm": 0.329666667,
+      "secondary_lamina_extent_pct": 44.1246432,
+      "spiral_ganglion_diameter_mm": 0.53,
+      "fenestra_area_mm2": 13.99
+    }
+  ]
+}
